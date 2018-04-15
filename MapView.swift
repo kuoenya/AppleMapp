@@ -12,6 +12,16 @@ import MapKit
 class MapView: UIViewController,MKMapViewDelegate {
     @IBOutlet weak var mapView: MKMapView!
     
+    @IBAction func fun(_ sender: Any) {
+        let alert = UIAlertController(title: "Advice", message:"Did this help :D", preferredStyle: .alert)
+        let good = UIAlertAction(title: "GOOD", style: .default, handler: nil)
+        let ok = UIAlertAction(title: "WELL,OK", style: .default, handler: nil)
+        alert.addAction(good)
+        alert.addAction(ok)
+        
+        self.present(alert, animated: true, completion: nil)
+    }
+    
     let location1 = CLLocation(latitude:25.0477435, longitude:121.5148509)
     let location2 = CLLocation(latitude: 25.033053, longitude: 121.563192)
     
