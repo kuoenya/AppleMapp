@@ -2,7 +2,6 @@
 //  CustomAnnotation.swift
 //  Applemap
 //
-//  Created by 郭梓歆 on 2018/4/15.
 //  Copyright © 2018年 azusa. All rights reserved.
 //
 
